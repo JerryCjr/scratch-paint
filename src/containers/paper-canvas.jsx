@@ -263,10 +263,10 @@ class PaperCanvas extends React.Component {
         return (
             <canvas
                 className={styles.paperCanvas}
-                height="360px"
+                height="375px"
                 ref={this.setCanvas}
                 style={{cursor: this.props.cursor}}
-                width="480px"
+                width="812px"
             />
         );
     }
